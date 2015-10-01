@@ -1,5 +1,5 @@
 # Clone the github repo (for the service files)
-git clone https://github.com/dennybritz/akka-cluster-deploy akka-cluster-deploy 
+git clone https://github.com/odd/akka-cluster-deploy akka-cluster-deploy 
 
 # Submit the unit files to fleet
 fleetctl submit akka-cluster-deploy/deploy/coreos/app@.service
